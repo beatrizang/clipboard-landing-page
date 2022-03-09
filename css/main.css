@@ -13,6 +13,11 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
 }
 
+@media only screen and (max-width: 1260px) {
+  body {
+    width: 100%;
+  }
+}
 header {
   display: flex;
   flex-direction: column;
@@ -33,6 +38,20 @@ header img {
   transform: scale(0.8);
 }
 
+@media only screen and (max-width: 1260px) {
+  header p {
+    width: 80%;
+  }
+
+  .download-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-buttons button {
+    margin: 0.8em 0;
+    width: 100%;
+  }
+}
 .track {
   display: flex;
   flex-direction: column;
@@ -69,6 +88,30 @@ header img {
   width: 22em;
 }
 
+@media only screen and (max-width: 1260px) {
+  .track p {
+    width: 80%;
+  }
+
+  .track-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .track-description img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .text-item {
+    text-align: center;
+    margin: 0em 0em 3em 0em;
+  }
+  .text-item p {
+    text-align: center;
+    width: 90%;
+  }
+}
 .access {
   display: flex;
   flex-direction: column;
@@ -89,6 +132,14 @@ header img {
   transform: scale(0.8);
 }
 
+@media only screen and (max-width: 1260px) {
+  .access p {
+    width: 80%;
+  }
+  .access img {
+    width: 100%;
+  }
+}
 .workflow {
   display: flex;
   flex-direction: column;
@@ -129,6 +180,20 @@ header img {
   margin: 0em 2em;
 }
 
+@media only screen and (max-width: 1260px) {
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .companies {
+    display: flex;
+    flex-direction: column;
+  }
+  .companies .companie {
+    margin: 2em 0;
+  }
+}
 .download {
   display: flex;
   flex-direction: column;
@@ -147,13 +212,18 @@ header img {
   width: 35em;
 }
 
+@media only screen and (max-width: 1260px) {
+  .download p {
+    width: 80%;
+  }
+}
 footer {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 5em 0em;
   background-color: #f6f7f8;
-  display: flex;
-  flex-direction: row;
 }
 footer .footer-logo {
   transform: scale(0.5);
@@ -186,6 +256,27 @@ a:hover {
 .social-media .icon-social {
   font-size: 25px;
   margin: 8px;
+}
+
+@media only screen and (max-width: 1260px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    margin: 0;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-left: 0;
+    padding-bottom: 2em;
+  }
+}
+.author {
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 .download-ios {

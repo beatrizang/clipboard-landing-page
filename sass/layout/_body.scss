@@ -11,3 +11,9 @@ body{
     background-position: top;
     font-family: $font;
 }
+
+@media only screen and (max-width: 1260px){
+    body{
+        width: 100%;
+    }
+}
