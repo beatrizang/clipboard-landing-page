@@ -1,0 +1,8 @@
+header {
+  @include display-column;
+  @include section-layout;
+  img{
+    transform: scale(0.8);
+    }
+}
+

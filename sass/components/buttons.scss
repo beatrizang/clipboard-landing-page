@@ -1,0 +1,21 @@
+.download-ios{
+  @include button ($strong-cyan);
+  @include shadow-button ($strong-cyan);
+}
+
+.download-ios:hover {
+  background-color: $light-cyan;
+}
+
+.donwload-mac {
+  @include button ($light-blue);
+  @include shadow-button ($light-blue);
+}
+
+.donwload-mac:hover {
+  background-color: ($lighter-blue);
+}
+
+button:hover{
+  cursor: pointer;
+}

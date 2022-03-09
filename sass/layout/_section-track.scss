@@ -1,0 +1,24 @@
+.track {
+    @include display-column;
+    @include section-layout;
+}
+
+.track-description {
+    @include display-row;
+    align-items: center;
+
+    img {
+        margin-left: -10em;
+        transform: scale(0.8);
+    }
+}
+
+.text-item {
+    text-align: left;
+    margin: 0em 5em 3em 0.5em;
+
+    p {
+        text-align: left;
+        width: 22em;
+    }
+}

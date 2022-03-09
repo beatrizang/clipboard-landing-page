@@ -1,0 +1,5 @@
+.download {
+    @include display-column;
+    @include section-layout;
+    margin-top: 5em;
+}

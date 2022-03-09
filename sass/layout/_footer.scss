@@ -1,0 +1,40 @@
+footer {
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0em;
+    background-color: $grayish-light-blue;
+    .footer-logo {
+        transform: scale(0.5);
+    }
+    @include display-row;
+}
+
+.info {
+    @include display-column;
+    margin: 3em 3em;
+    a {
+        margin: 10px 0;
+    }
+    .install {
+        margin-bottom: 3em;
+    }
+}
+
+a {
+    color: $dark-grayish-blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $light-cyan;
+}
+
+.social-media{
+   margin-left: 15em;
+
+   .icon-social {
+       font-size: 25px;
+       margin: 8px;
+   }
+
+}

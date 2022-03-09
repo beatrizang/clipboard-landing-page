@@ -1,0 +1,29 @@
+.workflow {
+    @include display-column;
+    @include section-layout;
+}
+
+.icons {
+    @include display-row;
+    align-items: center;
+    margin-top: 1em;
+    .icon{
+        margin: 1em;
+
+        h3 {
+            margin: 1em 0;
+        }
+
+        p {
+            width: 20em;
+        }
+    }
+}
+
+.companies {
+    margin: 1em;
+    
+    .companie {
+        margin: 0em 2em;
+    }
+}
